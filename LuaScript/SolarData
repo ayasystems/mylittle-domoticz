@@ -63,7 +63,7 @@ return {
 	},
 	on = {
 --		devices = {'testSwitch'},                                       -- a switch for testing w/o waiting minutes
-		timer = {'every '..tostring(intervalMins)..' minutes'}       -- There is no more limit to worry about as there is no API called
+		timer = {'every '..tostring(intervalMins)..' minutes at daytime'}       -- There is no more limit to worry about as there is no API called
 	},
 
 	execute = function(domoticz, device)
